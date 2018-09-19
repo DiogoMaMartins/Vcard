@@ -18,8 +18,8 @@ body{
 .container div:nth-child(even){
   background-color: white;;
 }
-.fundo{
-  background-image: url("fundo.jpg");
+.menu {
+  background-image:url("../imagens/fundo.jpg");
   color:red;
 }
 #foto{
@@ -38,8 +38,8 @@ body{
 }
 .face{
   position:relative;
-  color:gray;
-  font-size:12px;
+  color:white;
+  font-size:18px;
 }
 .linkedin{
   width:30px;
@@ -48,8 +48,8 @@ body{
 }
 .linke{
   position: relative;
-  color:gray;
-  font-size:12px;
+  color:white;
+  font-size:18px;
 }
 .twiter{
   width:30px;
@@ -58,10 +58,11 @@ body{
 }
 .twite{
   position:relative;
-  color:gray;
-  font-size:12px;
+  color:white;
+  font-size:18px;
 }
 .menu{
+  background: color url('imagens/fundo.jpg')
   background-image: url("imagens/fundo.jpg");
   grid-column-start:1;
   grid-row-start: 1;
